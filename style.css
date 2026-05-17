@@ -52,7 +52,6 @@ body {
     background-size: var(--red-filter-size, 90% 90%);
     opacity: 0;
     transform: translate(var(--red-filter-x, 0), var(--red-filter-y, 0)) scale(var(--red-filter-scale, 1));
-    transition: opacity 180ms ease;
 }
 
 .section.filter-on .panel-filter {
@@ -62,7 +61,6 @@ body {
 .panels button,
 .panels img[role="button"] {
     cursor: pointer;
-    transition: transform 540ms ease, box-shadow 140ms ease, background-color 540ms ease, color 540ms ease;
 }
 
 .panels button {
